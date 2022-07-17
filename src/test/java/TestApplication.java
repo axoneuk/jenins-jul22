@@ -1,3 +1,4 @@
+import junit.framework.Assert;
 import org.junit.Test;
 
 public class TestApplication {
@@ -25,16 +26,19 @@ public class TestApplication {
     @Test
     public void test5(){
         System.out.println("Running test 5");
+        Assert.fail();
     }
 
     @Test
     public void test6(){
         System.out.println("Running test 6");
+        Assert.fail();
     }
 
     @Test
     public void test7(){
         System.out.println("Running test 7");
+        Assert.fail();
     }
 
 }
